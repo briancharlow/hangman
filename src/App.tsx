@@ -17,7 +17,7 @@ function App() {
     maxWidth: "800px",
     display: "flex",
     flexDirection: "column",
-    gap:"2rem",
+    gap:"40px",
     margin: "0 auto",
     alignItems: "center",
    }}>
@@ -25,7 +25,9 @@ function App() {
    <div>
     <HangmanDrawing/>
     <HangmanWord/>
-    <div style={{alignSelf:"stretch"}}>
+    <div style={{
+      width: "100%",
+      marginTop:"4em"}}>
    <Keyboard/>
     </div>
  
